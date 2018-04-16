@@ -1,27 +1,25 @@
-# dl-dataday-workshop
+# Deep Learning Course, Figure Eight:
 
-Please make sure you do the setup below before coming to class:
-First (optional), create your EC2 account on AWS, if you don't have it.
-Second, install Anaconda with Python 3.5 
-Third, download and run the following
- 
-git clone https://github.com/humayun/dl-dataday-workshop.git
-cd dl-dataday-workshop
+At the end of this class, you should be comfortable experimenting with Deep Learning architectures to improve the accuracy of a task.
 
-For EC2 (Linux/Ubuntu) User:
+You will learn about:
+1. Types of Machine Learning algorithms
+2. Types of Supervised Machine Learning algorithms
+3. How Deep Learning is different to other approaches to Machine Learning
+4. Some common Deep Learning architectures
+5. How to experiment with some common Deep Learning architectures
 
-conda env create -f dl_workshop_ec2.yml
 
-For Mac User:
+# Getting started:
 
-conda env create -f dl_workshop_mac.yml
+Please open your terminal, and use the following commands to install the right libraries for the class:
 
-For Window User: 
+git clone https://github.com/rmunro/deep_learning_course
 
-conda env create -f dl_workshop_windows.yml
- 
-If you don't want to install anaconda then, you need to install following library:
- 
+cd deep_learning_course
+
+sudo easy_install pip
+
 pip install pandas
 
 pip install pillow
@@ -40,13 +38,4 @@ pip install keras
 
 pip install seaborn
  
-fourth, read instruction in project folder inside code and download data prior to workshop.
-
  
-If you run in to trouble:
-
-1) Check your version of python! Consider reinstalling python.
-
-2) Make a clean amazon instance on EC2. You can purchase p2.xlarge machines with a fast GPU for under $8 for the day.
-
-3) If all else fails, please come early
