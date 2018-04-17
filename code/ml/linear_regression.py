@@ -3,7 +3,6 @@ import numpy as np
 from sklearn import datasets, linear_model
 from sklearn.metrics import mean_squared_error, r2_score
 
-
 boston = datasets.load_boston()  ## housing prices in boston using these 13 features
 # print(boston.keys())
 # print(boston.data.shape)
@@ -19,9 +18,6 @@ plt.xlabel("crime rate")
 plt.ylabel("house price")
 plt.title("relationship between crime rate and housing price")
 plt.show()
-
-
-
 
 # let's split the data into train and test
 length = len(boston.data)
